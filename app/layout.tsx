@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "スマイルクッキング",
-  description: "肉まん・餃子教室",
+  title: "スマイルクッキング | 肉まん・餃子教室",
+  description: "肉まん・餃子教室 スマイルクッキング公式ホームページ",
 };
 
 export default function RootLayout({
@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="FuOd0cIG2fSyliK4sQsRKx83ktZ8NH4CbWn6kS2hTHA"
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
